@@ -38,7 +38,7 @@ section.landing{
     display:flex;
      justify-content: space-around;
      padding-top: 50px;
-     
+     scroll-behavior:smooth;
  }
 
  li a{
@@ -56,4 +56,9 @@ section.landing{
     grid-area: button;
     background-color:aquamarine;
     min-height: 213px;
+}
+
+section.history{
+    background-color: #f6f5f5;
+    min-height: 90vh;
 }
