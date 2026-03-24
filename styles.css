@@ -61,4 +61,22 @@ section.landing{
 section.history{
     background-color: #f6f5f5;
     min-height: 90vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.top{
+    background-color:red;
+    min-height: 288.6372px;
+}
+
+.middle{
+    background-color: lightgreen;
+    min-height: 184.0585px;
+
+}
+
+.bottom{
+    background-color: midnightblue;
+    min-height: 292.8203px;
 }
