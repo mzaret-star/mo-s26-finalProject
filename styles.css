@@ -73,11 +73,15 @@ section.landing{
     background-color: #ee99c2;
     width: 200px;
     height: 80px;
-    display:flex;
     justify-content: center;
-    align-items: center;
     border-radius: 10px;
-    cursor: pointer;
+    transition: width 1s, height 1s;
+    
+}
+
+#join-today:hover{
+    width: 220px;
+    height: 90px;
 }
 
 .img{
