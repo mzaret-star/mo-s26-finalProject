@@ -66,6 +66,18 @@ section.landing{
     /* instead of: grid-area: button; */
     /* background-color:aquamarine; */
     min-height: 213px;
+    
+}
+
+#join-today{
+    background-color: #ee99c2;
+    width: 200px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .img{
@@ -74,7 +86,7 @@ section.landing{
      grid-row:2 / span 2;
      object-fit:cover;
      position: relative;
-     z-index: -1;
+     z-index: -2;
 }
 
 section.history{
@@ -82,20 +94,22 @@ section.history{
     min-height: 90vh;
     display:flex;
     flex-direction: column;
+    background-image: url(assets/history.png);
+    background-size: cover;
 }
 
 .top{
-    background-color:red;
+    /* background-color:red; */
     min-height: 288.6372px;
 }
 
 .middle{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     min-height: 184.0585px;
 
 }
 
 .bottom{
-    background-color: midnightblue;
+    /* background-color: midnightblue; */
     min-height: 292.8203px;
 }
