@@ -97,7 +97,7 @@ section.history{
     background-color: #f6f5f5;
     min-height: 90vh;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     background-image: url(assets/history.png);
     background-size: cover;
 }
@@ -105,7 +105,10 @@ section.history{
 .top{
     /* background-color:red; */
     min-height: 288.6372px;
+    justify-content: space-between;
 }
+
+
 
 .middle{
     /* background-color: lightgreen; */
@@ -116,4 +119,26 @@ section.history{
 .bottom{
     /* background-color: midnightblue; */
     min-height: 292.8203px;
+}
+
+section.services{
+    background-color: #f6f5f5;
+    min-height: 90vh;
+    display:flex;
+    flex-direction: row;
+}
+
+.card-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+        padding: 50px;
+        
+    
+}
+
+.card{
+    background-color:#ffe3ca;
+    height: 30px;
+    width: 30%;
 }
