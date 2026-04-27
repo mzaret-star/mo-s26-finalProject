@@ -121,24 +121,27 @@ section.history{
     min-height: 292.8203px;
 }
 
-section.services{
+section.services {
     background-color: #f6f5f5;
     min-height: 90vh;
     display:flex;
     flex-direction: row;
 }
 
-.card-container{
+.card-container {
     display:flex;
+    width:75%;
     flex-direction: row;
     justify-content: space-between;
-        padding: 50px;
+    flex-wrap: wrap;
+        
         
     
 }
 
-.card{
+.card {
     background-color:#ffe3ca;
-    height: 30px;
-    width: 30%;
+    width: 250px;
+    height: 100px;
+    padding:50px;
 }
